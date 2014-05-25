@@ -1,13 +1,13 @@
 # DTerm for Boxen
 
-[![Build Status](https://travis-ci.org/hakamadare/puppet-dterm.png?branch=master)](https://travis-ci.org/hakamadare/puppet-dterm)
+[![Build Status](https://travis-ci.org/boxen/puppet-dterm.svg)](https://travis-ci.org/boxen/puppet-dterm)
 
 This Boxen module installs [DTerm](http://decimus.net/DTerm).
 
 ## Usage
 
 ```puppet
-class { 'dterm': }
+include dterm
 ```
 
 ## Required Puppet Modules
